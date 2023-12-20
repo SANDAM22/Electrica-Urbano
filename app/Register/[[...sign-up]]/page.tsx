@@ -4,3 +4,5 @@ function Page (){
 
     return <SignUp/>
 }
+
+export default Page
