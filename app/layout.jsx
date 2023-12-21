@@ -2,6 +2,8 @@ import { Inter } from 'next/font/google'
 import { ClerkProvider } from '@clerk/nextjs'
 import Header from '../components/Header/header'
 import Head from 'next/head';
+import Image from "next/image";
+import Styles from "./index.css"
 
 
 const RootLayout = ({ children }) => {
@@ -16,7 +18,17 @@ const RootLayout = ({ children }) => {
 
       
         
-          <Header />
+          
+           
+          
+         <Image className='fondo'src='/img/Fondo.jpeg' layout='fill'></Image>
+         <Header />
+         
+          
+
+          
+
+        
           
         
       

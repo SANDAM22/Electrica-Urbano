@@ -9,10 +9,11 @@ return (
 <header>
 
     <div className="container">
-        <div>
+        <div className="Divlogo">
             <Link href="/">
-                <Image src="/img/Logo Urbano.jpg" height={100} width ={100}/>
+                <Image className= "logo" src="/img/Logo Urbano.jpg" height={100} width ={100}/>
                 </Link>
+               <Link href="/"id="electrica">ELÉCTRICA</Link> <Link href="/"id="urbano">URBANO</Link> 
 
         </div>
 
