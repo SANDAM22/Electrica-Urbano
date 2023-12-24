@@ -8,10 +8,10 @@ function Header (){
 return (
 <header>
 
-    <div className="container">
+    <div className="Container">
         <div className="Divlogo">
             <Link href="/">
-                <Image className= "logo" src="/img/Logo Urbano.jpg" height={100} width ={100}/>
+                <Image className= "logo" src="/img/LogoUrbano.jpg" height={100} width ={100}/>
                 </Link>
                <Link href="/"id="electrica">ELÉCTRICA</Link> <Link href="/"id="urbano">URBANO</Link> 
 

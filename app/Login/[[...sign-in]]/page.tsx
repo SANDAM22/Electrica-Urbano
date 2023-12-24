@@ -1,8 +1,14 @@
-import { SignIn } from "@clerk/nextjs";
+    import { SignIn } from "@clerk/nextjs";
+    
+      
 
 function Page (){
 
-    return <SignIn/>
+    return (<div className="Form"><SignIn/></div>)
+
+ 
+  
+    
 }
 
 export default Page
