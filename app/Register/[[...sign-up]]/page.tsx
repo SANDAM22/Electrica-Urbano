@@ -1,4 +1,5 @@
 import { SignUp } from "@clerk/nextjs";
+import styles from '../../Styles/clerk.css'
 
 function Page (){
 

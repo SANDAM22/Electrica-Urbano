@@ -11,7 +11,7 @@ function Footer() {
             <div className='Location'>
             <FontAwesomeIcon className='Location' icon={faLocationDot} />
             </div>
-            <p>Congreso 1538,Haedo </p>
+            <p>Congreso 1538, Haedo </p>
              </div>
              <div className="Elemento">
               <div className='Whatsapp'>

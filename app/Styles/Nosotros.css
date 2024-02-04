@@ -1,3 +1,7 @@
+body{
+    margin:0;
+    background-color: #eadede;
+}
 .container{
     display:flex;
     width:100%;
@@ -5,8 +9,28 @@
     align-items: center;
     font-family: Arial;
     
+    
 }
-p{
-    color:black;
+.titulo{
+    padding: 2%;
+}
+
+.texto{
+    width:50%;
+    text-align:justify;
+}
+
+
+
+.galeria{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.galeria iframe,
+.galeria img {
+    border-radius: 10px; 
 }
 

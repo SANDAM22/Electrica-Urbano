@@ -17,7 +17,7 @@
   
     
 }
-p{
+.Elemento{
     color: white;
     font-family: sans-serif;
     
@@ -42,4 +42,15 @@ color: rgb(229, 0, 0);
     height: 50px;
     width: 50px;
 
+}
+
+@media screen and (max-width: 768px) {
+
+    .contenedor
+    {
+        flex-direction: column;
+        height: 50%;
+      
+        
+    }
 }

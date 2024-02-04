@@ -1,5 +1,6 @@
 body{
     margin:0;
+    width: 100%;
 }
 
 .position{
@@ -13,7 +14,8 @@ body{
     background-size: cover;
     height: 80vh;
     width: 100%;
-    animation: fondo 20s infinite alternate-reverse;
+    animation: fondo 20s infinite alternate-reverse ease-in;
+    
 }
 
 @keyframes fondo{
@@ -27,4 +29,15 @@ body{
         background-image: url(../../public/img/Fondo.jpeg);
         
     }
+}
+
+@media screen and (max-width:768px) {
+
+    main{
+        width: 100%;
+    }
+
+    
+    
+    
 }
