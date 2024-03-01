@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    width: 100%;
+}
+
+.position{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container{
+    background-image: url(../../public/img/Fondo.jpeg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    animation: fondo 20s infinite alternate-reverse ease-in;
+    
+}
+
+@keyframes fondo{
+
+    50%{
+        background-image: url(../../public/img/fondo2.jpg);
+        
+    }
+
+    100%{
+        background-image: url(../../public/img/Fondo.jpeg);
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    main{
+        width: 100%;
+    }
+
+    
+    
+    
+}
