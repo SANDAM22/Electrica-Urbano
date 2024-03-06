@@ -1,7 +1,9 @@
 import styles from './footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faLocationDot, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {faLocationDot} from '@fortawesome/free-solid-svg-icons'
 import {faWhatsapp} from '@fortawesome/free-brands-svg-icons'
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+
 
 function Footer() {
   return (
@@ -11,19 +13,19 @@ function Footer() {
             <div className='Location'>
             <FontAwesomeIcon className='Location' icon={faLocationDot} />
             </div>
-            <p>Congreso 1538, Haedo </p>
+            <p>Rivadavia 15872, Haedo </p>
              </div>
              <div className="Elemento">
               <div className='Whatsapp'>
              <FontAwesomeIcon className='Whatsapp' icon={faWhatsapp} />
              </div>
-             <p>Lorem ipsum dolor, sit amet consectetur</p>
+             <p>+54 9 11 2550-6050</p>
               </div>
               <div className="Elemento">
-                <div className='Email'>
-             <FontAwesomeIcon className='Email' icon={faEnvelope} />
+                <div className='clock'>
+             <FontAwesomeIcon className='clock' icon={faClock} />
              </div>
-             <p>Lorem ipsum dolor, sit amet consectetur</p>
+             <p>Horario de atención: 8:00-17:00hs</p>
               </div>
               </div>
 

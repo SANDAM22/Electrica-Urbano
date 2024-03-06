@@ -27,7 +27,7 @@ const Nosotros = () => {
        </iframe>
 
 
-<Image src="/img/Fondo.jpeg" loading="lazy" height={300} width={400}></Image>
+<Image src="/img/Fondo.jpg" loading="lazy" height={300} width={400}></Image>
 
       </div>
     </div>

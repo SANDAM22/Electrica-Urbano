@@ -17,23 +17,7 @@ return (
                <Link href="/"id="electrica">ELÉCTRICA</Link> <Link href="/"id="urbano">URBANO</Link> 
 
         </div>
-        <div className="Usuario">
-        <UserButton appearance={{
-    variables: {
-      fontFamily: "sans-serif",
-    },
-    elements:{
-        userButtonBox:{
-            position: 'absolute',
-            left:'90%',
-            top:'5%',
-            height:'25%',
-            width:'25%'
-        }
-
-    }
-  }}
-/></div>
+        
 
         
         <nav>
@@ -42,6 +26,23 @@ return (
             <Link className="navbutton" href="/Productos">Productos</Link>
             <Link className="navbutton" href="/Login">Iniciar sesión</Link>
             <Link className="navbutton" href="/Contacto">Contacto</Link>
+            <UserButton appearance={{
+    variables: {
+      fontFamily: "sans-serif",
+    },
+    elements:{
+        userButtonBox:{
+            position: 'absolute',
+            left:'85%',
+            top:'35.5%',
+            height:'25%',
+            width:'25%',
+        }
+
+    }
+  }}
+/>
+            
             
 
 

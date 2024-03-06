@@ -14,7 +14,7 @@ export default async function contact (req,res){
         port: 465,
         secure: true,
         auth: {
-          user: email,
+          user: 'santiyfidel@gmail.com',
           pass: 'fkfa jchk nkib iyhs'
         }
       });
@@ -23,11 +23,11 @@ export default async function contact (req,res){
             from:user,
             to:'santiyfidel@gmail.com',
             replyTo: email,
-            subject:  `Mensaje desde el sitio de ${name}`,
+            subject:  `Mensaje desde el sitio web`,
             html: `
-            <p>name: ${name}</p>
+            <p>Remitente: ${name}</p>
             <p>Email: ${email}</p>
-            <p>Message: ${message}</p>
+            <p>Mensaje: ${message}</p>
             `
             
 
