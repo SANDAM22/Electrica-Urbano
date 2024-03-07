@@ -5,8 +5,8 @@ const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const images = [
-    'https://www.simpleimageresizer.com/_uploads/photos/245bf26a/LogoUrbano_800x350.jpg',
-    'https://www.simpleimageresizer.com/_uploads/photos/245bf26a/logo-sica_5_800x350.jpg',
+    '/img/BannerUrbano.jpg',
+    '/img/logo-sica-860x860.jpg',
     'https://www.reintec.net/images/sica.jpg',
   ];
 
