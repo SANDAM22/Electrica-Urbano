@@ -36,27 +36,27 @@ const RootLayout = ({ children }) => {
       <div className='container'>
         <h1>Productos seleccionados</h1>
         <div className='Selección'>
-          <Link href='/Producto' passHref><div className='Seleccionado'>
+          <Link href='/Productos' passHref><div className='Seleccionado'>
           <Image className='imagen' src='/img/reflector30wfrio.png' height={110} width={120}></Image>
           <p className='precio'>$4943</p>
           <p>Reflector candela 30W</p>
           </div>
           </Link>  
-          <Link href='/Producto' passHref>
+          <Link href='/Productos' passHref>
           <div className='Seleccionado'>
           <Image className='imagen' src='/img/Tacsa.jpg' height={110} width={120}></Image>
           <p className='precio'>$1267</p>
           <p>Cinta Tacsa 20M</p>
           </div>
           </Link>
-          <Link href='/Producto' passHref>
+          <Link href='/Productos' passHref>
           <div className='Seleccionado'>
           <Image className='imagen' src='/img/Guirnalda.jpg' height={130} width={150}></Image>
           <p className='precio'>$18725</p>
           <p>Guirnalda luces led</p>
           </div>
           </Link>
-          <Link href='/Producto' passHref>
+          <Link href='/Productos' passHref>
           <div className='Seleccionado'>
           <Image className='imagen' src='/img/Sunshine.jpg' height={110} width={130}></Image>
           <p className='precio'>$5831</p>
