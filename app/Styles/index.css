@@ -2,6 +2,7 @@ body{
     margin:0;
     width: 100%;
     background-color: #f2f2f2;
+    width: 100%;
 }
 
 .position{
@@ -18,10 +19,14 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 10%;
     
 }
 h1{
-    font-family: Arial;
+    margin-top: 5%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-decoration-line: underline;
 }
 .Selección{
     display: flex;
@@ -29,34 +34,31 @@ h1{
     width: 100%;
     justify-content: space-evenly;
     padding-top:5%;
+    flex-wrap: wrap;
+    
 
 }
-.Seleccionado{
-    height: 40vh;
+
+.imagen{
+    border-radius: 15%;
+    height: 30vh;
     width: 15vw;
-    background-color: white;
-    font-family: arial;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius:15% ;
     transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    
 }
-.Seleccionado:hover{
-    scale: 1.3;
+a{
+    margin:1%;
 }
-.imagen{
-    margin: 10%;
-    border-bottom: solid 1px grey;
+.imagen:hover{
+    scale:1.3;
 }
 .precio{
     color: rgb(255, 0, 0);
     font-weight: bolder;
 }
-a{
-    text-decoration: none;
-    color:black
+footer{
+   width: 100%;
 }
 
 @media screen and (max-width:768px) {

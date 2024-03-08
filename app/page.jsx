@@ -34,35 +34,39 @@ const RootLayout = ({ children }) => {
 
 
       <div className='container'>
-        <h1>Productos seleccionados</h1>
+        <h1>Algunas Marcas con las que Trabajamos</h1>
         <div className='Selección'>
-          <Link href='/Productos' passHref><div className='Seleccionado'>
-          <Image className='imagen' src='/img/reflector30wfrio.png' height={110} width={120}></Image>
-          <p className='precio'>$4943</p>
-          <p>Reflector candela 30W</p>
-          </div>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/Candela.jpg' height={110} width={120}></Image>
           </Link>  
-          <Link href='/Productos' passHref>
-          <div className='Seleccionado'>
-          <Image className='imagen' src='/img/Tacsa.jpg' height={110} width={120}></Image>
-          <p className='precio'>$1267</p>
-          <p>Cinta Tacsa 20M</p>
-          </div>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/Sica.jpg' height={110} width={120}></Image>
           </Link>
-          <Link href='/Productos' passHref>
-          <div className='Seleccionado'>
-          <Image className='imagen' src='/img/Guirnalda.jpg' height={130} width={150}></Image>
-          <p className='precio'>$18725</p>
-          <p>Guirnalda luces led</p>
-          </div>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/Tacsa logo.jpg' height={130} width={150}></Image>
           </Link>
-          <Link href='/Productos' passHref>
-          <div className='Seleccionado'>
-          <Image className='imagen' src='/img/Sunshine.jpg' height={110} width={130}></Image>
-          <p className='precio'>$5831</p>
-          <p>Fotocontrol Sica Sunshine</p>
-          </div>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/trefi.jpg' height={110} width={130}></Image>
           </Link>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/Kalop.jpg' height={110} width={130}></Image>
+          </Link>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/logo-faroluz.jpg' height={110} width={130}></Image>
+          </Link>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/ferrolux.jpg' height={110} width={130}></Image>
+          </Link>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/Taad-logo-60.jpg' height={110} width={130}></Image>
+          </Link>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/Richi.jpg' height={110} width={130}></Image>
+          </Link>
+          <Link href='/Productos'>
+          <Image className='imagen' src='/img/Jeluz.jpg' height={110} width={130}></Image>
+          </Link>
+          
         </div>
       </div>
 
