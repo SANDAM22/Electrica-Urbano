@@ -1,6 +1,6 @@
 .Container{
     
-    height: 22%;
+    height: 7rem;
     display: flex;
     align-items: center;
     position: relative;
@@ -11,7 +11,7 @@
 
 .Divlogo{
     display: flex;
-    width: 50em;
+    width: 50rem;
     justify-content: center;
     align-items: center;
     font-weight: bolder;
@@ -41,7 +41,6 @@ nav {
     font-family: Arial;
     text-transform: uppercase;
     flex-wrap: wrap;
-    left:2%;
     position:relative;
 }
 
@@ -59,8 +58,8 @@ nav {
 }
 
 .logo{
-    height: 75.77%;
-    width: 75.77%;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
 
 }
