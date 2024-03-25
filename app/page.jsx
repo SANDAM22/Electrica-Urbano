@@ -56,13 +56,13 @@ const RootLayout = ({ children }) => {
           <Link href='/Kalop'>
             <Image className='imagen' src='/img/Kalop.jpg' height={110} width={130}></Image>
           </Link>
-          <Link href='/Productos'>
+          <Link href='/Faroluz'>
             <Image className='imagen' src='/img/logo-faroluz.jpg' height={110} width={130}></Image>
           </Link>
-          <Link href='/Productos'>
-            <Image className='imagen' src='/img/ferrolux.jpg' height={110} width={130}></Image>
+          <Link href='/Ferrolux'>
+            <Image className='imagen' src='/img/logo_ferrolux.png' height={110} width={130}></Image>
           </Link>
-          <Link href='/Productos'>
+          <Link href='/Baw'>
             <Image className='imagen' src='/img/Baw.jpg' height={110} width={130}></Image>
           </Link>
           <Link href='/Richi'>

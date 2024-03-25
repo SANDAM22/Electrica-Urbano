@@ -4,8 +4,7 @@ import * as XLSX from 'xlsx';
 import Header from '../../components/Header/header.jsx';
 import Footer from '../../components/Footer/footer.jsx';
 import TablaDatos from '../../components/DataTable/dataTable.jsx';
-import styles from '../Styles/catalogo.css';
-import Image from 'next/image';
+import styles from '../Styles/Catalogo.css'
 
 function ExcelReader() {
   const [excelData, setExcelData] = useState([]);
@@ -13,7 +12,7 @@ function ExcelReader() {
   useEffect(() => {
     const loadExcelData = async () => {
       try {
-        const response = await fetch('/data/Sica.xlsx');
+        const response = await fetch('/data/Ferrolux.xlsx');
         const arrayBuffer = await response.arrayBuffer();
         const workbook = XLSX.read(arrayBuffer, { type: 'array' });
         const sheetName = workbook.SheetNames[0];
@@ -38,7 +37,7 @@ function ExcelReader() {
     <><Header /><div className='Contenedor'>
 
 
-<Image className='image' src='/img/sica-logo-EE515FFAA9-seeklogo.com.png' height={110} width={120}></Image>
+      <h1>Productos Ferrolux</h1>
       <TablaDatos data={excelData} />
 
     </div> <Footer /></>

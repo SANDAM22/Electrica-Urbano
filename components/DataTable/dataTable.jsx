@@ -39,12 +39,12 @@ function TablaDatos({ data }) {
             const filtered = filteredProducts.filter(product => {
                 return product?.Código?.toLowerCase().includes(inputValue) || product?.Descripción?.toLowerCase().includes(inputValue);
             });
-            setSearchResults(filtered); // Actualiza los resultados del filtrado
+            setSearchResults(filtered); 
         }
-    }, [searchValue, filteredProducts]); // Ejecutar el efecto cuando cambie searchValue o filteredProducts
+    }, [searchValue, filteredProducts]);
 
     const handleChange = (e) => {
-        setSearchValue(e.target.value); // Actualiza el valor de búsqueda
+        setSearchValue(e.target.value); 
     };
 
     console.log('Renderizando componente:', { loading, searchResults });
