@@ -33,10 +33,12 @@ return (
     elements:{
         userButtonBox:{
             position: 'absolute',
-            left:'85%',
+            left:'91%',
             top:'35.5%',
             height:'25%',
             width:'25%',
+            margin:0,
+            padding:0,
         }
 
     }

@@ -12,7 +12,7 @@ function ExcelReader() {
   useEffect(() => {
     const loadExcelData = async () => {
       try {
-        const response = await fetch('/data/Richi.xlsx');
+        const response = await fetch('/data/Kalop.xlsx');
         const arrayBuffer = await response.arrayBuffer();
         const workbook = XLSX.read(arrayBuffer, { type: 'array' });
         const sheetName = workbook.SheetNames[0];
@@ -37,7 +37,7 @@ function ExcelReader() {
     <><Header /><div className='Contenedor'>
 
 
-      <h1>Productos Richi</h1>
+      <h1>Productos Kalop</h1>
       <TablaDatos data={excelData} />
 
     </div> <Footer /></>

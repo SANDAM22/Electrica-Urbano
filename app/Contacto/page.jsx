@@ -9,7 +9,9 @@ async function handleSubmit(data) {
     const response = await fetch('/api/contact', {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data)
+      body: JSON.stringify(data),
+      // Desactivar la verificación de certificados SSL
+      agent: new (require('https').Agent)({ rejectUnauthorized: false }),
     });
 
     if (response.ok) {

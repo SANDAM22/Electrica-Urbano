@@ -41,19 +41,19 @@ const RootLayout = ({ children }) => {
       <div className='container'>
         <h1>Principales Marcas con las que Trabajamos</h1>
         <div className='Selección'>
-          <Link href='/Productos'>
+          <Link href='/Candela'>
             <Image className='imagen' src='/img/Candela.jpg' height={110} width={120}></Image>
           </Link>
-          <Link href='/Productos'>
+          <Link href='/Sica'>
             <Image className='imagen' src='/img/Sica.jpg' height={110} width={120}></Image>
           </Link>
-          <Link href='/Productos'>
+          <Link href='/Tacsa'>
             <Image className='imagen' src='/img/Tacsa logo.jpg' height={130} width={150}></Image>
           </Link>
-          <Link href='/Productos'>
+          <Link href='/Trefilcon'>
             <Image className='imagen' src='/img/trefi.jpg' height={110} width={130}></Image>
           </Link>
-          <Link href='/Productos'>
+          <Link href='/Kalop'>
             <Image className='imagen' src='/img/Kalop.jpg' height={110} width={130}></Image>
           </Link>
           <Link href='/Productos'>
@@ -63,12 +63,12 @@ const RootLayout = ({ children }) => {
             <Image className='imagen' src='/img/ferrolux.jpg' height={110} width={130}></Image>
           </Link>
           <Link href='/Productos'>
-            <Image className='imagen' src='/img/Taad-logo-60.jpg' height={110} width={130}></Image>
+            <Image className='imagen' src='/img/Baw.jpg' height={110} width={130}></Image>
           </Link>
           <Link href='/Richi'>
             <Image className='imagen' src='/img/Richi.jpg' height={110} width={130}></Image>
           </Link>
-          <Link href='/Productos'>
+          <Link href='/Jeluz'>
             <Image className='imagen' src='/img/Jeluz.jpg' height={110} width={130}></Image>
           </Link>
 

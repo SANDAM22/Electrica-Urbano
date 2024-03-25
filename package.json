@@ -18,12 +18,14 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.0.8",
+    "fs": "^0.0.1-security",
     "next": "14.0.4",
     "nodemailer": "^6.9.9",
     "react": "^18",
     "react-bootstrap": "^2.10.1",
     "react-data-table-component": "^7.6.2",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/react": "18.2.45",

@@ -5,6 +5,7 @@
     position:absolute;
     display:flex;
     justify-content: space-evenly;
+    
    
     
 }
@@ -48,6 +49,8 @@ color: rgb(229, 0, 0);
 
     .contenedor
     {
+        
+        margin-top: 40%;
         flex-direction: column;
         height: 50%;
       

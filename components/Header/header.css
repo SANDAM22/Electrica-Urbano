@@ -1,6 +1,6 @@
 .Container{
     
-    height: 7rem;
+    min-height: 70px;
     display: flex;
     align-items: center;
     position: relative;
@@ -61,14 +61,16 @@ nav {
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
+    padding-left: 5px;
 
 }
-.Usuario{
-    display: flex;
-    align-items: flex-end;
-}
+
 
 @media screen and (max-width: 768px) {
+    .Container{
+        flex-direction: column;
+    }
+    
     nav{
         flex-direction: column;
 
