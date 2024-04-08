@@ -5,9 +5,9 @@ const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const images = [
-    '/img/Entrada.jpeg',
+    '/img/Entrada.jpg',
     '/img/Imagen1slider.jpg',
-    'https://www.reintec.net/images/sica.jpg',
+    '/img/prueba depoposito 1_Mesa de trabajo 1.jpg',
   ];
 
   const goToPrevSlide = () => {

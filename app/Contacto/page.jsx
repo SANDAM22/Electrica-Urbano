@@ -10,7 +10,6 @@ async function handleSubmit(data) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
-      // Desactivar la verificación de certificados SSL
       agent: new (require('https').Agent)({ rejectUnauthorized: false }),
     });
 
@@ -26,7 +25,7 @@ async function handleSubmit(data) {
 }
 
 function Contacto() {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [formData, setFormData] = useState({ name: "", email: "", message: "", phone:"" });
 
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
@@ -44,6 +43,7 @@ function Contacto() {
         <form onSubmit={onSubmit}>
           <h1 className="titulo">Contáctenos</h1>
           <input type="text" name="name" placeholder="Nombre y apellido" value={formData.name} onChange={handleChange} required minLength={8} />
+          <input type="number" name="phone" placeholder="Teléfono" value={formData.phone} onChange={handleChange} required min={8} />
           <input type="email" name="email" placeholder="Correo electrónico" value={formData.email} onChange={handleChange} required /><br />
           <input type="text" name="message" placeholder="¿Cómo podemos ayudarte?" className="message" value={formData.message} onChange={handleChange} required /><br />
           <button type="submit">Enviar</button>

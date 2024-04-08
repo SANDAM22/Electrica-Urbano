@@ -1,9 +1,9 @@
 import nodemailer from 'nodemailer'
 
 export default async function contact(req, res) {
-  const { name, email, message } = req.body;
+  const { name, email, message, phone } = req.body;
 
-  const data = { name, email, message }
+  const data = { name, email, message, phone }
 
   const user = process.env.user;
   const pass = process.env.pass;
@@ -26,6 +26,7 @@ export default async function contact(req, res) {
       subject: `Mensaje desde el sitio web`,
       html: `
             <p>Remitente: ${name}</p>
+            <p>Teléfono: ${phone}
             <p>Email: ${email}</p>
             <p>Mensaje: ${message}</p>
             `
@@ -41,8 +42,8 @@ export default async function contact(req, res) {
       message: "Hubo un error al enviar tu mensaje"
     })
   }
- 
 
 
-}  
+
+}
 

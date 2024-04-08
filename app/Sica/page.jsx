@@ -5,7 +5,6 @@ import Header from '../../components/Header/header.jsx';
 import Footer from '../../components/Footer/footer.jsx';
 import TablaDatos from '../../components/DataTable/dataTable.jsx';
 import styles from '../Styles/catalogo.css';
-import Image from 'next/image';
 
 function ExcelReader() {
   const [excelData, setExcelData] = useState([]);
@@ -38,7 +37,8 @@ function ExcelReader() {
     <><Header /><div className='Contenedor'>
 
 
-<Image className='image' src='/img/sica-logo-EE515FFAA9-seeklogo.com.png' height={110} width={120}></Image>
+      <h1>Productos Sica </h1>
+
       <TablaDatos data={excelData} />
 
     </div> <Footer /></>
